@@ -13,7 +13,11 @@ class MP3Importer
   end
   
   def import
+<<<<<<< HEAD
     files.each { |file| Song.new_by_filename(file) }
+=======
+  @files.each {|filename| Song.new_by_filename(filename)}
+>>>>>>> 4d0fb9522021c3a79715b5df0f1dfa29ed70ca68
   end
   
 end
